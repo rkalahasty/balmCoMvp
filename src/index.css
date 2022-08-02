@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.patientbox {
+  border-radius: 15px;
+  border: .1px solid #000000;
+  padding: 20px;
+  width: 30%;
+  height: auto;
+}
+
+.patientnav {
+  width: 200px;
+}
+
+.navbutton {
+  width: 180px;
+  background-color: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  margin-bottom: 3px;
+  font-family: Poppins;
+  border-radius: 7px;
+  display: inline-block;
+  text-align: start;
+}
+
+.navbutton:hover{
+  background-color: white;
+  transition: .5s;
+  box-shadow: 0 7px 4px -6px gray
+}
+
+.navbutton:active{
+  background-color: white;
+  transition: .5s;
+  box-shadow: 0 7px 4px -6px gray
+}
+.navIcon {
+  width: 35px;
+  display: inline;
+  position: absolute;
+  padding: 3px;
+  margin-left: 8px;
+}
+.back {
+  height: 10000px;
+}
+
+.delete:hover {
+  background-color: palevioletred !important;
+  transition: 0.4s;
+}
+
+.perscription:hover {
+  background-color: purple !important;
+  transition: 0.4s;
+}
+
+body {
+  background-color: #fbfbfb;
+  }
+  @media (min-width: 991.98px) {
+  main {
+  padding-left: 240px;
+  }
+  }
+  
+  /* Sidebar */
+  .sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+  }
+  
+  @media (max-width: 991.98px) {
+  .sidebar {
+  width: 100%;
+  }
+  }
+  .sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+  
+  .sidebar-sticky {
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+
+  .addButton {
+    margin-top: 4px;
+    border-radius: 9px;
+    color: white;
+    background-color: '#E85F5C';
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 18px;
+    margin-top: 8px
+  }
+  
+  .addButton:hover {
+    background-color: rgb(169, 241, 181);
+    transition: 0.4s;
+    border-color: black;
+  }
+
+  div.vertical-line{
+    width: 2px; /* Line width */
+    background-color: #90C2E7; /* Line color */
+    height: 56px; /* Override in-line if you want specific height. */
+    float: left; /* Causes the line to float to left of content. 
+      You can instead use position:absolute or display:inline-block
+      if this fits better with your design */
+  }
+
+  .verticalLine {
+    border-left: 4px solid #4b42f5;
+    height: 0px;
+  }
+
+  .purplify {
+    background-color: rgb(169, 241, 181);
+    transition: 0.4s;
+  }
+
+.navbar {
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+}
+.navbar > div {
+  padding: 1em;
+}
+.navbar .pull-right {
+  margin-left: auto;
+}
