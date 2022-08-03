@@ -22,7 +22,7 @@ class AddPatient extends React.Component {
   render() {
     return (
       <><link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link><div className="patientbox" style={{ borderRadius: "5px", display: "inline-block", backgroundColor: "white", WebkitBoxShadow: "0 7px 4px -6px black" }}>
-        <div>
+        <div style = {{marginRight: "20px"}}>
         <h2 stlye={{fontFamily: "Poppins"}}> Add Patient</h2>
         <form className="ui form" onSubmit={this.add}>
 

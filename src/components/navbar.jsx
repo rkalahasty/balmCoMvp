@@ -93,7 +93,7 @@ class Navbar extends Component {
                             <div class="features">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="info" style={{backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
+                                        <div class="info" style={{height: "500px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
                                             <div class="icon icon-info">
                                             <img
                                                 src={patient} alt="user" style = {{marginLeft: 'auto', marginRight: 'auto',   
@@ -111,7 +111,7 @@ class Navbar extends Component {
                                     </div>
                 
                                     <div class="col-md-6">
-                                        <div class="info" style={{backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #7C7FC4", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
+                                        <div class="info" style={{height: "500px",backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #7C7FC4", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
                                             <div class="icon icon-success">
                                                 <img
                                                     src={doctor} alt="user" style = {{marginLeft: 'auto', marginRight: 'auto',   
@@ -135,7 +135,7 @@ class Navbar extends Component {
                         <div class="team">
                             <div class="row">
                                 <div class="col-md-4">
-                                <div class="team-player" style={{height: "450px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
+                                <div class="team-player" style={{height: "500px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
                                     <div class="card card-plain">
                                     <div class="col-md-6 ml-auto mr-auto">
                                     <img
@@ -153,7 +153,7 @@ class Navbar extends Component {
                                 </div>
                                 </div>
                                 <div class="col-md-4">
-                                <div class="team-player" style={{height: "450px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
+                                <div class="team-player" style={{height: "500px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
                                     <div class="card card-plain" style={{marginBottom: "6px"}}>
                                     <div class="col-md-6 ml-auto mr-auto">
                                         <img
@@ -173,7 +173,7 @@ class Navbar extends Component {
                                 </div>
                     
                                 <div class="col-md-4">
-                                <div class="team-player" style={{height: "450px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
+                                <div class="team-player" style={{height: "500px", backgroundColor: "white", marginTop: "25px", borderRadius: "5px", border: "1px solid #000000", padding: "10px", WebkitBoxShadow: "0 8px 6px -6px black", MozBoxShadow: "0 8px 6px -6px black", boxShadow: "0 8px 6px -6px black"}}>
                                     <div class="card card-plain" style={{marginBottom: "6px"}}>
                                     <div class="col-md-6 ml-auto mr-auto">
                                         <img

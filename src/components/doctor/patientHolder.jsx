@@ -22,7 +22,8 @@ const PatientHolder = (props) => {
                 position: 'absolute',
                 backgroundColor: "white",
                 WebkitBoxShadow: "0 7px 4px -6px black",
-                minWidth: "300px"
+                minWidth: "300px",
+                marginLeft: "20px"
               }}>
     <h3>Existing Patients</h3>
     {renderContactList}

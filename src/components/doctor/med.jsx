@@ -21,6 +21,11 @@ function Med (props) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const handleCloseAndPerscribe = () => {
+        setShow(false);
+        alert("Prescription Has Been Sent!");
+    }
+
     const medications = ["DICLOFENAC", "DMSO", "TETRACAINE", "GABAPENTIN", "LIDOCAINE", "BACLOFEN"]
     const renderEdits = medications.map((x) => {
         if (props.formula.toLowerCase().includes(x.toLowerCase()))
@@ -190,7 +195,7 @@ function Med (props) {
                  }} 
                 href="#"> <b>Close</b>
             </button>  
-            <button onClick={handleClose}
+            <button onClick={handleCloseAndPerscribe}
                 class="btn btn-outline-primary"
                 style = {{
                     marginRight:'10px',
