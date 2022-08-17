@@ -1,28 +1,53 @@
-import React, { useState, useEffect } from "react";
-import { uuid } from "uuidv4";
-import PatientNav from "./patientNav";
-// import PatientHolder from "./patientHolder";
+import React, { useState } from "react";
 import PatientPrescription from "./patientPerscriptions"
 import AutoRefills from "./autoRefills"
 import PastOrders from "./pastOrders"
+import ps from "../images/ps.png"
+import reset from '../images/reset.png'
+import pastorders from '../images/pastorders.png'
 
 function PrescriptionArea() {
 
-  const [patients, setPatients] = useState([]);
+  const [active, setActive] = useState("Prescription")
 
-  const addPatientHandler = (patient) => {
-    console.log(patient)
-    setPatients([...patients, patient])
-  }
-
-  const deletePatientHandler = (patient) => {
-    console.log(patient)
-  }
   return (
     <div className="ui container" style={{margin: "auto"}} >
-      <PatientNav />
-      {/* <PatientPrescription /> */}
-      <PastOrders />
+
+
+      <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
+      
+      <div className="patientnav" style={{ borderRadius: "5px", display: "inline-block", backgroundColor: "transparent"}}>
+        
+        <div>
+            <img className="navIcon" src={ps} alt="user"></img>
+            <button onClick={() => setActive("Prescription")}className="navbutton">
+                Perscriptions
+            </button>
+        </div>
+        <div>            
+            <img className="navIcon" src={reset} alt="user" style={{padding: "5px"}}></img>
+            <button onClick={() => setActive("PastOrders")} className="navbutton">
+                Auto Refills
+            </button>
+        </div>
+        <div>
+            <img className="navIcon" src={pastorders} alt="user"></img>
+            <button onClick={() => setActive("AutoRefills")} className="navbutton">
+                Past Orders
+            </button>
+        </div>
+        {/* <div>
+            <img className="navIcon" src={profile} alt="user" style={{padding: "5px"}}></img>
+            <button className="navbutton">
+                Profile
+            </button>
+        </div> */}
+      </div>
+
+      {active === "Prescription" && <PatientPrescription/>}
+      {active === "AutoRefills" && <AutoRefills/>}
+      {active === "PastOrders" && <PastOrders/>}
+
     </div>
   );
 

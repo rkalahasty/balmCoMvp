@@ -1,6 +1,5 @@
-import {Modal, Button} from "react-bootstrap"
-import React, {useState, Component } from 'react';
-import { render } from "@testing-library/react";
+import { Modal } from "react-bootstrap"
+import React, { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import axios from 'axios';
 
@@ -73,7 +72,7 @@ function PhysicianSignup() {
         if (error.response.status === 401) {
           setMessage(error.response.data.message);
         } else {
-          setMessage(error.response.status + 'sorry....the backend server is down!! please try again later');
+          setMessage('No need to register for testing purposes! Simply press Login');
         }
       })
     }

@@ -1,6 +1,4 @@
 import React from "react";
-import Patient from "../doctor/patient";
-import PerscribedMed from "./perscribedMed"
 
 const AutoRefills = () => {
 

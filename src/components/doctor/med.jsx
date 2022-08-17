@@ -1,21 +1,13 @@
-import React, {useState, Component } from "react";
-import patientIcon from '../images/patientIcon.png';
-import Perscription from './startPerscription';
-import {Modal, Button} from "react-bootstrap"
+import React, {useState} from "react";
+import {Modal} from "react-bootstrap"
 import cert from '../images/cert.png'
-import Review from './reviewAndConfirm'
 import nameIcon from '../images/nameIcon.png'
 import email from '../images/email.png'
 import phoneIcon from '../images/phoneIcon.png'
 import gender from '../images/gender.png'
-import $ from 'jquery';
 
 function Med (props) {
 
-    function closeAll() {
-        $('#options, #perscription').modal('hide');
-      }
-      
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);

@@ -1,8 +1,6 @@
-
 import React from "react";
 import PatientBox from "./patientBox"
 import {Link } from "react-router-dom";
-import { black } from "tailwindcss/colors";
 
 const DoctorDashboard = (props) => {
     

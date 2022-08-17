@@ -1,7 +1,6 @@
 import React from "react";
 import patientIcon from '../images/patientIcon.png';
 import Perscription from './startPerscription';
-import {Modal, Button} from "react-bootstrap"
 
 function Patient (props) {
   const { firstName, lastName, gender, email, cell } = props.patient;

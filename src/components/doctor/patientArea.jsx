@@ -1,7 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { uuid } from "uuidv4";
+import React, { useState } from "react";
 import PatientNav from "../patient/patientNav";
-import PatientHolder from "./patientHolder";
 import PatientPrescription from "../patient/patientPerscriptions"
 
 function PatientArea() {

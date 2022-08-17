@@ -1,8 +1,5 @@
-import {Modal, Button} from "react-bootstrap"
-import React, {useState, Component } from 'react';
-import { render } from "@testing-library/react";
-import Form from 'react-bootstrap/Form';
-import PatientSignup from "../patientsignup";
+import { Modal } from "react-bootstrap"
+import React, { useState } from 'react';
 import Med from './med'
 
 function Perscription(props) {

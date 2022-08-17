@@ -1,8 +1,6 @@
 import React from "react";
 import PrescriptionArea from "../patient/perscriptionArea.jsx"
-import VNavbar from "./verticalNavbar"
 import {Link } from "react-router-dom";
-import { black } from "tailwindcss/colors";
 
 const PatientDashboard = (props) => {
     

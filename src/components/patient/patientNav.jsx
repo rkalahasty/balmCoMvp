@@ -12,16 +12,6 @@ class PatientNav extends React.Component {
     cell: "",
   };
 
-  // add = (e) => {
-  //   e.preventDefault();
-  //   if (this.state.firstName === "" || this.state.lastName === "" || this.state.email === "" || this.state.gender === "" || this.state.cell === "") {
-  //     alert("ALl the fields are mandatory!");
-  //     return;
-  //   }
-  //   this.props.addPatientHandler(this.state);
-  //   this.setState({ firstName: "", lastName: "", gender: "", email: "", cell: ""});
-  // };
-
   render() {
     return (
       <><link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>

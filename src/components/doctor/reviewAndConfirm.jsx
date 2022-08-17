@@ -1,7 +1,5 @@
-import React, {useState, Component } from "react";
-import patientIcon from '../images/patientIcon.png';
-import Perscription from './startPerscription';
-import {Modal, Button} from "react-bootstrap"
+import React, {useState } from "react";
+import { Modal } from "react-bootstrap"
 import cert from '../images/cert.png'
 
 function Review (props) {
@@ -24,14 +22,6 @@ function Review (props) {
             );
         });
     
-    function getIngrediants() {
-        const usedMeds = []
-        for (let i = 0; i < medications.length; i++) {
-            props.formula.toLowerCase().includes(medications[i].toLowerCase())
-            usedMeds.push(medications[i])
-        }
-        return usedMeds;
-    }
   return (
     <div style={{marginBottom: "20px", borderColor: "gray"}}>
 
